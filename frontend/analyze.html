@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c2f22">
+<title>Analyze a Crop — Crop Health AI</title>
+<meta name="description" content="Upload or take a leaf photo and get an AI screening for maize, potato or tomato.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2312432f'/%3E%3Cpath d='M16 26c-6-3-9-8-8-15 7 0 12 3 13 9 .4 3-1.6 5.5-5 6z' fill='%23b5e04f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="nav"><div class="container">
+  <a class="brand" href="/" aria-label="Crop Health AI home"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="10" fill="#12432f"/><path d="M17 28C10 25 7 19 8 11c8 0 13 3 15 10 .5 3.2-2 6-6 7z" fill="#b5e04f"/><path d="M12 24c3-5 6-8 11-10" stroke="#12432f" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>Crop Health AI</a>
+  <nav class="nav-links" aria-label="Main"><a href="/">Home</a><span id="status" class="badge" title="Model status">Checking…</span></nav>
+</div></header>
+
+<section class="page-head"><div class="container narrow">
+  <h1>Analyze a Crop</h1><p>Take or choose a photo of one leaf, check the preview, then analyze it.</p>
+</div></section>
+
+<main class="container narrow pull-up">
+  <section class="card" aria-labelledby="t-flow">
+    <h2 id="t-flow" class="sr-only">Analyze a leaf photo</h2>
+    <ol class="stepper" id="stepper" aria-label="Progress">
+      <li data-step="1" data-state="active"><b>1</b>Choose or capture</li>
+      <li data-step="2" data-state=""><b>2</b>Preview</li>
+      <li data-step="3" data-state=""><b>3</b>Analyze</li>
+    </ol>
+    <div id="serverNote" class="banner" hidden></div>
+
+    <div class="tips">
+      <div class="good"><h3><svg class="icon"><use href="/static/icons.svg#i-check"/></svg>For a good photo</h3><ul><li>One leaf, filling most of the frame</li><li>Daylight, no strong shadow</li><li>Hold steady and tap to focus</li><li>Include the spots or damage</li></ul></div>
+      <div class="avoid"><h3><svg class="icon"><use href="/static/icons.svg#i-x"/></svg>Avoid</h3><ul><li>Blurry or dark photos</li><li>Whole fields or many plants</li><li>Wet leaves with glare</li><li>Filters or edited images</li></ul></div>
+    </div>
+
+    <fieldset><legend class="legend">Crop</legend>
+      <div class="seg">
+        <label><input type="radio" name="crop" value="" checked><span>Auto-detect</span></label>
+        <label><input type="radio" name="crop" value="maize"><span>Maize</span></label>
+        <label><input type="radio" name="crop" value="potato"><span>Potato</span></label>
+        <label><input type="radio" name="crop" value="tomato"><span>Tomato</span></label>
+      </div>
+      <p class="hint">Choosing the crop narrows the result to that crop's conditions.</p>
+    </fieldset>
+
+    <fieldset><legend class="legend">Language</legend>
+      <div class="seg two">
+        <label><input type="radio" name="lang" value="en" checked><span>English</span></label>
+        <label><input type="radio" name="lang" value="sw"><span>Kiswahili</span></label>
+      </div>
+      <p class="hint">Your choice is sent with the photo. Kiswahili support is partial: some guidance and this page are still in English.</p>
+    </fieldset>
+
+    <div class="block">
+      <h2 id="t-photo">Leaf photo</h2>
+      <div id="drop" class="dropzone" role="group" aria-labelledby="t-photo">
+        <svg class="icon"><use href="/static/icons.svg#i-upload"/></svg>
+        <strong>Add a photo of one leaf</strong>
+        <span class="small">JPEG, PNG or WebP, up to 10 MB<span id="dragHint"> · or drag a photo here</span></span>
+        <div class="pick-row">
+          <button type="button" class="btn btn-primary" id="camBtn" hidden><svg class="icon"><use href="/static/icons.svg#i-camera"/></svg>Take photo</button>
+          <button type="button" class="btn btn-secondary" id="galBtn"><svg class="icon"><use href="/static/icons.svg#i-image"/></svg>Choose photo</button>
+        </div>
+      </div>
+      <div id="previewCard" class="preview-card" hidden>
+        <img id="preview" alt="Preview of the selected leaf photo">
+        <div class="preview-bar">
+          <div class="file-meta"><b id="fileName"></b><span class="small" id="fileSize"></span></div>
+          <div class="preview-actions">
+            <button type="button" class="btn btn-secondary btn-sm" id="replaceBtn"><svg class="icon"><use href="/static/icons.svg#i-swap"/></svg>Replace</button>
+            <button type="button" class="btn btn-danger-ghost btn-sm" id="removeBtn"><svg class="icon"><use href="/static/icons.svg#i-trash"/></svg>Remove</button>
+          </div>
+        </div>
+      </div>
+      <input id="fileGallery" class="sr-only" type="file" accept="image/jpeg,image/png,image/webp" tabindex="-1" aria-hidden="true">
+      <input id="fileCamera" class="sr-only" type="file" accept="image/jpeg,image/png,image/webp" capture="environment" tabindex="-1" aria-hidden="true">
+      <div id="fileError" class="field-error" role="alert" hidden></div>
+    </div>
+
+    <div class="analyze-row">
+      <button id="analyze" type="button" class="btn btn-primary btn-block" disabled><svg class="icon" id="analyzeIcon"><use href="/static/icons.svg#i-scan"/></svg><span id="analyzeLabel">Analyze</span></button>
+      <p class="hint" id="analyzeHint">Add a photo to continue.</p>
+    </div>
+  </section>
+
+  <section id="result" class="card" aria-live="polite" tabindex="-1" hidden></section>
+  <p class="small" style="margin:var(--s5) 0 var(--s7)">This is decision support, not a laboratory diagnosis. For severe or spreading disease, contact a local agricultural extension officer.</p>
+</main>
+<script src="/static/app.js"></script>
+</body></html>

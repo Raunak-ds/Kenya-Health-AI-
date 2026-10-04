@@ -1,0 +1,112 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c2f22">
+<title>Crop Health AI — Know Your Crop. Act Earlier.</title>
+<meta name="description" content="AI-powered leaf image screening for maize, potato and tomato, with clear guidance on what to do next.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2312432f'/%3E%3Cpath d='M16 26c-6-3-9-8-8-15 7 0 12 3 13 9 .4 3-1.6 5.5-5 6z' fill='%23b5e04f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="nav"><div class="container">
+  <a class="brand" href="/" aria-label="Crop Health AI home"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="10" fill="#12432f"/><path d="M17 28C10 25 7 19 8 11c8 0 13 3 15 10 .5 3.2-2 6-6 7z" fill="#b5e04f"/><path d="M12 24c3-5 6-8 11-10" stroke="#12432f" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>Crop Health AI</a>
+  <nav class="nav-links" aria-label="Main"><a href="#how">How it works</a><a href="#crops">Crops</a><a href="#technology">Technology</a><a href="#trust">Trust</a><a class="btn btn-primary" href="/analyze">Analyze a Crop</a></nav>
+</div></header>
+
+<main>
+<section class="hero" aria-labelledby="h-hero"><div class="container hero-grid">
+  <div>
+    <h1 id="h-hero">Know Your Crop. Act Earlier.</h1>
+    <p class="lead">Take a photo of a leaf. Crop Health AI uses AI-powered image analysis to screen for common diseases in maize, potato and tomato, then gives you practical guidance on what to do next.</p>
+    <div class="hero-cta"><a class="btn btn-lime" href="/analyze">Analyze a Crop</a><a class="btn btn-outline-light" href="#how">How It Works</a></div>
+    <div class="hero-crops" aria-label="Supported crops">Works with <b>Maize</b><b>Potato</b><b>Tomato</b></div>
+  </div>
+  <div class="scan" aria-hidden="true">
+    <svg class="leaf" viewBox="0 0 320 300" focusable="false">
+      <path d="M160 278C84 244 52 176 66 92c4-24 12-40 24-54 62 8 118 40 142 98 20 48 4 108-72 142z" fill="#2a7d4f"/>
+      <path d="M160 278C108 230 92 160 104 80" stroke="#8fd1a9" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
+      <path d="M130 200l-44-22M122 160l-44-30M130 120l-30-26M142 214l50-26M146 172l56-34" stroke="#8fd1a9" stroke-width="2" fill="none" stroke-linecap="round" opacity=".55"/>
+      <circle cx="176" cy="120" r="15" fill="#8a6a2a" opacity=".9"/><circle cx="130" cy="188" r="10" fill="#8a6a2a" opacity=".85"/><circle cx="188" cy="190" r="12" fill="#a38237" opacity=".85"/>
+      <g stroke="#b5e04f" stroke-width="3" fill="none" stroke-linecap="round"><path d="M20 52V24h28M272 24h28v28M300 248v28h-28M48 276H20v-28"/></g>
+      <g class="scan-line"><rect x="24" y="24" width="272" height="3" rx="1.5" fill="#b5e04f" opacity=".9"/></g>
+    </svg>
+    <ul>
+      <li><svg class="icon"><use href="/static/icons.svg#i-check"/></svg>Checks the photo is clear enough</li>
+      <li><svg class="icon"><use href="/static/icons.svg#i-gauge"/></svg>Says "not sure" instead of guessing</li>
+      <li><svg class="icon"><use href="/static/icons.svg#i-eye"/></svg>Shows where it looked on the leaf</li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="section" id="how" aria-labelledby="h-how"><div class="container">
+  <div class="sec-head"><h2 id="h-how">How it works</h2><p>Three steps from the field to guidance. It works from a phone camera, with nothing to install.</p></div>
+  <div class="grid g3">
+    <div class="step"><span class="num">1</span><h3>Choose or capture</h3><p>Take a photo of one leaf in daylight, or pick one from your gallery. You can also drag a file in on a computer.</p></div>
+    <div class="step"><span class="num">2</span><h3>Preview</h3><p>Check that the leaf is sharp and fills the frame. Replace the photo if it isn't, and choose your crop and language.</p></div>
+    <div class="step"><span class="num">3</span><h3>Analyze</h3><p>The image is checked, screened by the AI model, and returned with a confidence level, a severity estimate and guidance.</p></div>
+  </div>
+  <div class="outputs">What you get back: <span>Likely condition</span><span>Confidence</span><span>Severity estimate</span><span>Visual explanation</span><span>Source-backed guidance</span></div>
+</div></section>
+
+<section class="section alt" id="crops" aria-labelledby="h-crops"><div class="container">
+  <div class="sec-head"><h2 id="h-crops">Supported crops</h2><p>The model screens eleven leaf conditions across three crops. Anything outside this list is not covered.</p></div>
+  <div class="grid g3">
+    <article class="crop"><div class="crop-top"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-leaf"/></svg></span><h3>Maize</h3></div>
+      <ul><li>Gray Leaf Spot</li><li>Common Rust</li><li>Northern Leaf Blight</li><li>Healthy leaf<em>Healthy</em></li></ul>
+      <a class="btn btn-secondary" href="/analyze?crop=maize">Analyze maize</a></article>
+    <article class="crop"><div class="crop-top"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-leaf"/></svg></span><h3>Potato</h3></div>
+      <ul><li>Early Blight</li><li>Late Blight</li><li>Healthy leaf<em>Healthy</em></li></ul>
+      <a class="btn btn-secondary" href="/analyze?crop=potato">Analyze potato</a></article>
+    <article class="crop"><div class="crop-top"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-leaf"/></svg></span><h3>Tomato</h3></div>
+      <ul><li>Bacterial Spot</li><li>Early Blight</li><li>Late Blight</li><li>Healthy leaf<em>Healthy</em></li></ul>
+      <a class="btn btn-secondary" href="/analyze?crop=tomato">Analyze tomato</a></article>
+  </div>
+  <p class="note">"Unknown" is not a disease the model was trained on. When it can't identify a leaf with enough confidence, it reports an uncertain result.</p>
+</div></section>
+
+<section class="section dark" id="technology" aria-labelledby="h-tech"><div class="container tech-grid">
+  <div>
+    <div class="sec-head"><h2 id="h-tech">AI technology</h2><p>Each photo goes through the same pipeline, built so that weak or unclear results are flagged rather than hidden.</p></div>
+    <ol class="pipeline">
+      <li><h3>Photo quality check</h3><p>Rejects images that are too small, too dark, too blurry or that show too little plant tissue.</p></li>
+      <li><h3>Image classification</h3><p>A transfer-learning neural network trained on public leaf images identifies the likely condition.</p></li>
+      <li><h3>Calibrated confidence</h3><p>Temperature scaling adjusts the model's confidence, and a threshold chosen on validation data decides when to answer.</p></li>
+      <li><h3>Uncertainty handling</h3><p>Low confidence or scattered probabilities return "uncertain" instead of a forced guess.</p></li>
+      <li><h3>Severity and explanation</h3><p>An image-based severity estimate and a Grad-CAM heatmap show how much of the leaf looks affected and where the model focused.</p></li>
+      <li><h3>Guidance</h3><p>Management, prevention and monitoring advice comes from a curated knowledge base with source links.</p></li>
+    </ol>
+  </div>
+  <aside class="tech-side"><h3>Model candidates</h3><p>Training compares three lightweight backbones and keeps the one with the best validation macro recall.</p>
+    <div class="tags"><span>MobileNetV3-Small</span><span>ResNet-18</span><span>EfficientNet-B0</span></div>
+    <p>Built with PyTorch and served by FastAPI. Results shown in the app always come from the running model, never from fixed examples.</p></aside>
+</div></section>
+
+<section class="section" id="why" aria-labelledby="h-why"><div class="container">
+  <div class="sec-head"><h2 id="h-why">Why this system</h2><p>Designed around how a farmer actually works in the field.</p></div>
+  <div class="grid g3">
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-phone"/></svg></span><h3>Built for a phone</h3><p>Large touch targets, camera capture and a short path from photo to result.</p></div>
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-gauge"/></svg></span><h3>Honest about doubt</h3><p>When the photo or the model is unsure, you are told, along with how to retake the picture.</p></div>
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-eye"/></svg></span><h3>Shows its reasoning</h3><p>A heatmap marks the part of the leaf that influenced the result, so you can judge it yourself.</p></div>
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-book"/></svg></span><h3>Actionable next steps</h3><p>Management, prevention and monitoring steps, with sources you can read.</p></div>
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-layers"/></svg></span><h3>Light to load</h3><p>No external fonts, scripts or trackers, so pages load quickly on slow connections.</p></div>
+    <div class="feature"><span class="ico"><svg class="icon"><use href="/static/icons.svg#i-shield"/></svg></span><h3>Safety first</h3><p>No pesticide doses. Advice points to integrated pest management and local extension officers.</p></div>
+  </div>
+</div></section>
+
+<section class="section alt" id="trust" aria-labelledby="h-trust"><div class="container">
+  <div class="sec-head"><h2 id="h-trust">Trust and transparency</h2><p>What this tool can and cannot do.</p></div>
+  <div class="trust">
+    <div class="item"><svg class="icon"><use href="/static/icons.svg#i-info"/></svg><div><h3>Decision support, not a diagnosis</h3><p>A leaf photo cannot replace a laboratory test or an extension officer's visit, especially for severe or spreading disease.</p></div></div>
+    <div class="item"><svg class="icon"><use href="/static/icons.svg#i-info"/></svg><div><h3>Trained on public data</h3><p>The training images come from PlantVillage, which is mostly taken against plain backgrounds. Results on field photos can be less reliable.</p></div></div>
+    <div class="item"><svg class="icon"><use href="/static/icons.svg#i-info"/></svg><div><h3>Severity is an estimate</h3><p>It is a project-defined measure of discolored leaf area, not a validated agronomic score.</p></div></div>
+    <div class="item"><svg class="icon"><use href="/static/icons.svg#i-info"/></svg><div><h3>Language support is partial</h3><p>You can choose English or Kiswahili. Parts of the interface and guidance are still English only.</p></div></div>
+  </div>
+  <div class="cta-band"><div><h3>Ready to check a leaf?</h3><p>Use a clear photo of one leaf in daylight.</p></div><a class="btn btn-lime" href="/analyze">Analyze a Crop</a></div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container">
+  <div class="cols">
+    <div><a class="brand" href="/">Crop Health AI</a><p>AI-assisted leaf disease screening for maize, potato and tomato. A hackathon prototype for decision support.</p></div>
+    <div><h4>Explore</h4><a href="#how">How it works</a><a href="#crops">Supported crops</a><a href="#technology">AI technology</a><a href="#trust">Trust and transparency</a></div>
+    <div><h4>Get started</h4><a href="/analyze">Analyze a Crop</a><a href="/analyze?crop=maize">Maize</a><a href="/analyze?crop=potato">Potato</a><a href="/analyze?crop=tomato">Tomato</a></div>
+  </div>
+  <p class="fine">Not a substitute for professional agricultural advice. For severe or spreading disease, contact your local agricultural extension officer.</p>
+</div></footer>
+</body></html>

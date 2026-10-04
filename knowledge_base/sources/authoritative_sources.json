@@ -1,0 +1,44 @@
+{
+  "KALRO_MAIZE": {
+    "name": "Kenya Agricultural and Livestock Research Organization (KALRO) - Maize Crop Protection",
+    "organization": "KALRO (Government of Kenya)",
+    "url": "https://www.kalro.org/maize/crop-protection/",
+    "scope": "Maize foliar disease management, rust, blight, resistant hybrid varieties in Kenya"
+  },
+  "KALRO_HORTICULTURE": {
+    "name": "KALRO Horticultural Research Institute (HRI)",
+    "organization": "KALRO (Government of Kenya)",
+    "url": "https://www.kalro.org/horticulture/",
+    "scope": "Tomato and potato disease management recommendations for Kenyan agro-ecological zones"
+  },
+  "FAO_IPM": {
+    "name": "FAO Integrated Pest and Disease Management Guidelines",
+    "organization": "Food and Agriculture Organization (FAO)",
+    "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en",
+    "scope": "Principles of cultural control, disease monitoring, prevention, and safe pesticide stewardship"
+  },
+  "CIMMYT_MAIZE": {
+    "name": "CIMMYT Global Maize Program - Foliar Diseases in Sub-Saharan Africa",
+    "organization": "CIMMYT / CGIAR",
+    "url": "https://www.cimmyt.org/work/maize-diseases/",
+    "scope": "Gray leaf spot, common rust, and northern corn leaf blight epidemiology and resistance"
+  },
+  "CIP_POTATO": {
+    "name": "International Potato Center (CIP) - Late Blight Management in East Africa",
+    "organization": "International Potato Center / CGIAR",
+    "url": "https://cipotato.org/crop-protection/late-blight/",
+    "scope": "Late blight epidemiology, certified seed, early intervention, and resistant clones in Kenya"
+  },
+  "UMN_EXTENSION_VEG": {
+    "name": "University of Minnesota Extension - Vegetable and Specialty Crop Disease Profiles",
+    "organization": "University of Minnesota Extension",
+    "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management",
+    "scope": "Early blight, bacterial spot, late blight diagnosis, sanitation, and cultural controls"
+  },
+  "CABI_PLANTWISE": {
+    "name": "CABI PlantwisePlus Knowledge Bank - Kenya Crop Advisories",
+    "organization": "CABI",
+    "url": "https://www.plantwise.org/KnowledgeBank",
+    "scope": "Farmer-facing pest management decision guides validated by Kenya extension officers"
+  }
+}

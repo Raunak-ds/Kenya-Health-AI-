@@ -1,0 +1,87 @@
+{
+  "app_name": "Afya ya Mazao AI Kenya",
+  "app_tagline": "Kinga mimea yako kwa utambuzi wa mapema wa magonjwa kwa AI",
+  "hero_description": "Uchunguzi wa papo hapo wa magonjwa ya majani, kiwango cha madhara, na ushauri wa kilimo unaozingatia hali ya Kenya kwa wakulima wa mahindi, viazi na nyanya.",
+  "scan_crop_cta": "Chunguza Zao Sasa",
+  "explore_dashboard": "Fungua Dashibodi ya Mkulima",
+  "how_it_works": "Jinsi Inavyofanya Kazi",
+  "step1_title": "1. Piga Picha ya Jani",
+  "step1_desc": "Piga picha safi na yenye mwanga wa kutosha ya jani lililoathirika ukitumia simu yako au pakia picha.",
+  "step2_title": "2. Uchunguzi wa Papo hapo kwa AI",
+  "step2_desc": "Mfumo wetu wa EfficientNet unachambua jani kwa sekunde chache na kuonyesha sehemu zenye dalili kupitia Grad-CAM.",
+  "step3_title": "3. Hatua Madhubuti za Kuchukua",
+  "step3_desc": "Pata mwongozo wa haraka wa usimamizi, kinga, na mbinu zilizoidhinishwa na KALRO kwa lugha ya Kiswahili au Kiingereza.",
+  "step4_title": "4. Uhakiki wa Afisa Ugani",
+  "step4_desc": "Fuatilia maendeleo kwa vikumbusho na upate uthibitisho kutoka kwa maafisa wa kilimo wa kaunti yako.",
+  "disclaimer_text": "Utambuzi wa AI unalenga kusaidia maamuzi, si kuchukua nafasi ya ushauri wa kitaalamu wa kilimo. Hakuna vipimo vya viuadudu vinavyotolewa. Wasiliana na afisa ugani wa eneo lako na uzingatie miongozo ya PCPB.",
+  "nav": {
+    "home": "Mwanzo",
+    "dashboard": "Dashibodi",
+    "scan": "Chunguza Jani",
+    "farms": "Mashamba Yangu",
+    "history": "Historia ya Vipimo",
+    "follow_ups": "Ufuatiliaji",
+    "notifications": "Taarifa",
+    "profile": "Wasifu Wangu",
+    "expert": "Afisa Ugani",
+    "admin": "Utawala & Ufuatiliaji",
+    "login": "Ingia",
+    "register": "Jisajili",
+    "logout": "Toka"
+  },
+  "roles": {
+    "farmer": "Mkulima",
+    "extension_officer": "Afisa Ugani wa Kilimo",
+    "admin": "Msimamizi wa Mfumo"
+  },
+  "crops": {
+    "maize": "Mahindi",
+    "potato": "Viazi Mviringo",
+    "tomato": "Nyanya"
+  },
+  "severity": {
+    "Mild": "Kiwango cha Chini (<10% imeathirika)",
+    "Moderate": "Kiwango cha Kati (10-25% imeathirika)",
+    "Severe": "Kiwango Kibaya (>25% imeathirika)",
+    "Healthy": "Mmea Una Afya (0% imeathirika)",
+    "Unknown": "Haikujulikana"
+  },
+  "scan_status": {
+    "ok": "Uchunguzi Umekamilika",
+    "uncertain": "Hakuna Uhakika wa Kutosha",
+    "invalid_image": "Picha Haieleweki / Si Sahihi",
+    "model_missing": "Mfumo wa AI haupatikani"
+  },
+  "headers": {
+    "what_to_do_now": "HATUA ZA HARAKA ZA KUCHUKUA SASA",
+    "prevention": "JINSI YA KUZUIA",
+    "monitoring": "UFUATILIAJI",
+    "escalation": "WAKATI WA KUOMBA MSAADA WA MTAALAMU",
+    "kenya_notes": "MAELEZO MAALUM YA KENYA",
+    "sources": "VILIKOTOKA / VYANZO VYA KUAMINIKA",
+    "follow_up_plan": "RATIBA YA UFUATILIAJI NA MATIBABU",
+    "feedback": "JE, UTAMBUZI HUU UMEKUSAIDIA?"
+  },
+  "feedback": {
+    "helpful_question": "Je, utambuzi huu umekusaidia?",
+    "yes": "Ndio, umesaidia sana",
+    "no": "Hapana, si sahihi au haujasaidia",
+    "not_sure": "Sina uhakika bado",
+    "outcome_question": "Nini kilitokea baada ya kufuata ushauri?",
+    "improved": "Mazao yameimarika",
+    "unchanged": "Hakuna mabadiliko",
+    "worsened": "Hali imekuwa mbaya zaidi",
+    "submit": "Tuma Maoni",
+    "submitted": "Asante sana kwa maoni yako!"
+  },
+  "stats": {
+    "registered_farmers": "Wakulima Waliojisajili",
+    "total_farms": "Mashamba Yanayofuatiliwa",
+    "total_scans": "Jumla ya Vipimo Vilivyofanyika",
+    "active_issues": "Magonjwa Yanayoendelea",
+    "healthy_scans": "Vipimo Visivyo na Ugonjwa",
+    "uncertain_scans": "Vipimo Visivyo na Uhakika",
+    "follow_ups_due": "Ufuatiliaji Unaosubiriwa",
+    "no_scans_yet": "Hakuna vipimo bado"
+  }
+}

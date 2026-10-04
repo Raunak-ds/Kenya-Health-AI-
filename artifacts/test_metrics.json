@@ -1,0 +1,257 @@
+{
+  "accuracy": 0.990525069088038,
+  "macro_precision": 0.9868804257252074,
+  "macro_recall_sensitivity": 0.9854317764835883,
+  "macro_specificity": 0.9990344768317123,
+  "macro_f1": 0.986022901595182,
+  "confusion_matrix": [
+    [
+      238,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      97,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      232,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      197,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      194,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      424,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      195,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      326,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      1,
+      375
+    ]
+  ],
+  "per_class": {
+    "maize_common_rust": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "support": 238
+    },
+    "maize_gray_leaf_spot": {
+      "precision": 1.0,
+      "recall_sensitivity": 0.941747572815534,
+      "specificity": 1.0,
+      "f1": 0.97,
+      "fpr": 0.0,
+      "fnr": 0.05825242718446602,
+      "support": 103
+    },
+    "maize_healthy": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "support": 232
+    },
+    "maize_northern_leaf_blight": {
+      "precision": 0.9704433497536946,
+      "recall_sensitivity": 1.0,
+      "specificity": 0.997431506849315,
+      "f1": 0.985,
+      "fpr": 0.0025684931506849314,
+      "fnr": 0.0,
+      "support": 197
+    },
+    "potato_early_blight": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "support": 200
+    },
+    "potato_healthy": {
+      "precision": 0.9393939393939394,
+      "recall_sensitivity": 0.96875,
+      "specificity": 0.9992003198720512,
+      "f1": 0.9538461538461539,
+      "fpr": 0.0007996801279488205,
+      "fnr": 0.03125,
+      "support": 32
+    },
+    "potato_late_blight": {
+      "precision": 0.9797979797979798,
+      "recall_sensitivity": 0.97,
+      "specificity": 0.9982854693527646,
+      "f1": 0.9748743718592965,
+      "fpr": 0.0017145306472353193,
+      "fnr": 0.03,
+      "support": 200
+    },
+    "tomato_bacterial_spot": {
+      "precision": 0.9976470588235294,
+      "recall_sensitivity": 1.0,
+      "specificity": 0.9995258416311048,
+      "f1": 0.9988221436984688,
+      "fpr": 0.000474158368895211,
+      "fnr": 0.0,
+      "support": 424
+    },
+    "tomato_early_blight": {
+      "precision": 0.9948979591836735,
+      "recall_sensitivity": 0.975,
+      "specificity": 0.9995713673381912,
+      "f1": 0.9848484848484849,
+      "fpr": 0.0004286326618088298,
+      "fnr": 0.025,
+      "support": 200
+    },
+    "tomato_healthy": {
+      "precision": 0.9969418960244648,
+      "recall_sensitivity": 1.0,
+      "specificity": 0.9995468962392388,
+      "f1": 0.998468606431853,
+      "fpr": 0.00045310376076121433,
+      "fnr": 0.0,
+      "support": 326
+    },
+    "tomato_late_blight": {
+      "precision": 0.9765625,
+      "recall_sensitivity": 0.984251968503937,
+      "specificity": 0.995817843866171,
+      "f1": 0.9803921568627451,
+      "fpr": 0.004182156133828996,
+      "fnr": 0.015748031496062992,
+      "support": 381
+    }
+  },
+  "test_loss": 0.07582673043500893,
+  "coverage_at_threshold": 0.9952625345440189,
+  "accepted_accuracy": 0.9924633082110274,
+  "inference_ms_per_image": 2.4051114062444867
+}

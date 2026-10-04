@@ -1,0 +1,14 @@
+{
+  "en": {
+    "uncertain": "Unable to confidently identify this condition.",
+    "bad_image": "Please upload a clearer image of the affected leaf.",
+    "healthy": "No supported disease was confidently detected in this leaf image.",
+    "management": "Management", "prevention": "Prevention", "monitoring": "Monitoring"
+  },
+  "sw": {
+    "uncertain": "Mfumo haujaweza kutambua hali hii kwa uhakika.",
+    "bad_image": "Tafadhali pakia picha iliyo wazi zaidi ya jani lililoathirika.",
+    "healthy": "Hakuna ugonjwa unaoungwa mkono uliotambuliwa kwa uhakika kwenye picha hii ya jani.",
+    "management": "Hatua za sasa", "prevention": "Kuzuia", "monitoring": "Ufuatiliaji"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "disease_id": "tomato_bacterial_spot",
+  "crop": "tomato",
+  "display_name": "Tomato Bacterial Spot",
+  "swahili_name": "Madoa ya Bakteria ya Nyanya",
+  "pathogen": "Xanthomonas perforans / Xanthomonas vesicatoria",
+  "symptoms": [
+    "Small (under 3mm) dark brown to black circular lesions on leaves, often water-soaked initially",
+    "Yellow chlorotic halos surround spots, giving a speckled appearance",
+    "Leaf lesions may coalesce leading to ragged leaf margins and scorched appearance",
+    "Fruit exhibits raised, scab-like, blistered spots with dark margins"
+  ],
+  "management": [
+    "Avoid entering or handling crops while foliage is wet from rain or dew to prevent bacterial spreading.",
+    "Carefully remove badly affected leaves or seedlings; disinfect pruning shears with 70% alcohol or 10% bleach between plants.",
+    "Do not rely solely on routine copper sprays; copper-resistant Xanthomonas strains are widespread in commercial tomato basins in Kenya."
+  ],
+  "prevention": [
+    "Source hot-water treated or certified disease-free commercial seeds from reputable seed houses.",
+    "Use drip irrigation under mulch rather than overhead sprinklers to eliminate water splash.",
+    "Practice strict 2-3 year crop rotation away from solanaceous crops (tomato, pepper, potato, black nightshade).",
+    "Ensure adequate plant spacing and staking/trellising for rapid drying."
+  ],
+  "monitoring": [
+    "Scout nursery seedbeds and newly transplanted crops closely after warm thunderstorms.",
+    "Check young tender foliage and developing green fruit for water-soaked greasy spots."
+  ],
+  "escalation": [
+    "Spotting observed in seedling nursery prior to transplanting (do not transplant infected seedlings).",
+    "Rapid spread after overhead irrigation or hail damage with fruit lesions appearing.",
+    "Extensive defoliation exposing green fruit to sunscald."
+  ],
+  "kenya_notes": "Very common in warm humid tomato growing belts including Kirinyaga (Mwea irrigation scheme), Machakos, Kajiado, and lakeside regions. Overhead irrigation substantially amplifies outbreaks.",
+  "sources": [
+    {
+      "name": "KALRO Horticultural Research Institute Guide",
+      "url": "https://www.kalro.org/horticulture/"
+    },
+    {
+      "name": "University of Minnesota Extension - Bacterial Spot of Tomato and Pepper",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/bacterial-spot-of-tomato-and-pepper"
+    },
+    {
+      "name": "FAO IPM Plant Protection Guidelines",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

@@ -1,0 +1,87 @@
+{
+  "app_name": "Crop Health AI Kenya",
+  "app_tagline": "Protect your crops with AI-powered early disease detection",
+  "hero_description": "Instant plant disease screening, severity analysis, and Kenya-grounded management recommendations for maize, potato, and tomato farmers.",
+  "scan_crop_cta": "Scan a Crop Now",
+  "explore_dashboard": "Open Farmer Dashboard",
+  "how_it_works": "How It Works",
+  "step1_title": "1. Snap Leaf Photo",
+  "step1_desc": "Take a clear, well-lit photo of the affected plant leaf with your smartphone or upload an image.",
+  "step2_title": "2. Instant AI Screening",
+  "step2_desc": "Our calibrated EfficientNet model screens the leaf in milliseconds and highlights affected regions with Grad-CAM.",
+  "step3_title": "3. Actionable Management",
+  "step3_desc": "Receive immediate cultural management steps, prevention measures, and KALRO-aligned guidance in English or Swahili.",
+  "step4_title": "4. Extension Verification",
+  "step4_desc": "Track progress with follow-up reminders and receive expert validation from county extension officers.",
+  "disclaimer_text": "AI diagnosis should support, not replace, professional agricultural advice. No pesticide dosages are provided. Always consult local extension officers and follow PCPB registered guidelines.",
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "scan": "Scan Leaf",
+    "farms": "My Farms",
+    "history": "Scan History",
+    "follow_ups": "Follow-ups",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "expert": "Extension Officer",
+    "admin": "Admin & Surveillance",
+    "login": "Sign In",
+    "register": "Register",
+    "logout": "Sign Out"
+  },
+  "roles": {
+    "farmer": "Farmer",
+    "extension_officer": "Agricultural Extension Officer",
+    "admin": "Platform Administrator"
+  },
+  "crops": {
+    "maize": "Maize (Corn)",
+    "potato": "Irish Potato",
+    "tomato": "Tomato"
+  },
+  "severity": {
+    "Mild": "Mild (<10% affected)",
+    "Moderate": "Moderate (10-25% affected)",
+    "Severe": "Severe (>25% affected)",
+    "Healthy": "Healthy (0% affected)",
+    "Unknown": "Unknown"
+  },
+  "scan_status": {
+    "ok": "Analysis Complete",
+    "uncertain": "Uncertain / Low Confidence",
+    "invalid_image": "Unclear / Invalid Image",
+    "model_missing": "Model Unavailable"
+  },
+  "headers": {
+    "what_to_do_now": "WHAT TO DO NOW (Immediate Management)",
+    "prevention": "PREVENTION",
+    "monitoring": "MONITORING",
+    "escalation": "WHEN TO GET EXPERT HELP",
+    "kenya_notes": "KENYA-SPECIFIC CONTEXT",
+    "sources": "CITATIONS & AUTHORITATIVE SOURCES",
+    "follow_up_plan": "RECOVERY & FOLLOW-UP SCHEDULE",
+    "feedback": "WAS THIS DIAGNOSIS HELPFUL?"
+  },
+  "feedback": {
+    "helpful_question": "Was this diagnosis helpful?",
+    "yes": "Yes, very helpful",
+    "no": "No, incorrect or unhelpful",
+    "not_sure": "Not sure yet",
+    "outcome_question": "What happened after following the recommendation?",
+    "improved": "Crops improved",
+    "unchanged": "No change",
+    "worsened": "Condition worsened",
+    "submit": "Submit Feedback",
+    "submitted": "Thank you for your feedback!"
+  },
+  "stats": {
+    "registered_farmers": "Registered Farmers",
+    "total_farms": "Active Farms",
+    "total_scans": "Total Scans Completed",
+    "active_issues": "Active Crop Issues",
+    "healthy_scans": "Healthy Scans",
+    "uncertain_scans": "Uncertain Scans",
+    "follow_ups_due": "Follow-ups Due",
+    "no_scans_yet": "No scans yet"
+  }
+}

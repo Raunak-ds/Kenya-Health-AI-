@@ -1,0 +1,50 @@
+{
+  "disease_id": "tomato_early_blight",
+  "crop": "tomato",
+  "display_name": "Tomato Early Blight",
+  "swahili_name": "Kinyaushi cha Mapema cha Nyanya",
+  "pathogen": "Alternaria solani / Alternaria linariae",
+  "symptoms": [
+    "Dark brown to black circular lesions on older lower leaves displaying distinct concentric target-like rings",
+    "Yellow chlorotic zone surrounds expanding lesions as pathogen produces alternaric acid",
+    "Stems develop dark, sunken, concentric lesions (collar rot in young transplants)",
+    "Fruit develops sunken, leathery dark spots at the stem end with concentric rings"
+  ],
+  "management": [
+    "Prune off heavily infected lower foliage (up to 30cm above soil) to minimize fungal spore splash from the soil.",
+    "Water exclusively at root level with drip lines; avoid splashing soil onto leaves.",
+    "Stake or trellis plants and prune suckers to optimize air circulation and accelerate drying.",
+    "Consult local agrovet and extension officers for PCPB-registered protectant or systemic fungicides when disease pressure is persistent."
+  ],
+  "prevention": [
+    "Apply organic or plastic mulch around plant bases to prevent soil splash onto lower canopy.",
+    "Rotate fields out of Solanaceae crops for a minimum of 2-3 years.",
+    "Select tolerant tomato varieties where available in the Kenyan market.",
+    "Sanitize pruning knives and stakes between crop cycles."
+  ],
+  "monitoring": [
+    "Inspect the bottom leaves weekly, particularly after high humidity, morning dews, or intermittent rain.",
+    "Track whether lesions begin spreading up into the middle fruiting canopy."
+  ],
+  "escalation": [
+    "Target spots progress past lower leaves into the cluster and flower zone.",
+    "Lesions detected on green or ripening fruit stems.",
+    "Defoliation exposes ripening fruit to sunscald."
+  ],
+  "kenya_notes": "Ubiquitous in open-field tomato production across Kenya. Heaviest during warm, humid transition periods between rains. Staking and mulching reduce disease severity by over 50%.",
+  "sources": [
+    {
+      "name": "KALRO Horticulture Research Advisory - Tomato Diseases",
+      "url": "https://www.kalro.org/horticulture/"
+    },
+    {
+      "name": "University of Minnesota Extension - Early Blight in Tomato and Potato",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+    },
+    {
+      "name": "FAO IPM Plant Protection Guidelines",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

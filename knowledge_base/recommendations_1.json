@@ -1,0 +1,54 @@
+{
+  "_policy": {
+    "chemical_safety": "No dosage is provided. If a pesticide is considered, use only products registered for the crop and disease in Kenya, follow the product label, PPE, pre-harvest interval, and local agricultural guidance.",
+    "general_source": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+  },
+  "maize_gray_leaf_spot": {
+    "management": ["Remove or manage heavily infected crop residue where locally appropriate.", "Use crop rotation and avoid continuous maize where disease pressure is high.", "Consult a local extension officer before considering a fungicide."],
+    "prevention": ["Use locally recommended resistant or tolerant varieties when available.", "Rotate with non-host crops and manage volunteer maize.", "Scout lower and middle canopy leaves during humid periods."],
+    "monitoring": ["Track lesion expansion and whether symptoms move rapidly upward toward leaves around the ear."],
+    "sources": ["https://www.kalro.org/maize/crop-protection/", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "maize_common_rust": {
+    "management": ["Prioritize resistant hybrids and field scouting.", "If disease is increasing early in crop development, seek local extension advice on registered options rather than spraying routinely."],
+    "prevention": ["Plant resistant hybrids where locally available.", "Maintain balanced crop nutrition and general field hygiene."],
+    "monitoring": ["Look for increasing rust-colored pustules on both leaf surfaces and note crop growth stage."],
+    "sources": ["https://extension.umn.edu/agriculture/crop-production/corn/common-rust-on-corn", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "maize_northern_leaf_blight": {
+    "management": ["Use resistant varieties and crop rotation.", "Manage infected maize residue where appropriate.", "If disease is severe early, consult Kenyan extension guidance before using any registered fungicide."],
+    "prevention": ["Rotate maize with non-cereal crops when disease pressure is persistent.", "Choose resistant varieties and maintain field hygiene."],
+    "monitoring": ["Watch for elongated cigar-shaped lesions, especially on lower leaves, and whether lesions progress upward."],
+    "sources": ["https://www.kalro.org/maize/crop-protection/", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "potato_early_blight": {
+    "management": ["Remove badly infected foliage where practical and dispose of it away from production areas.", "Reduce leaf wetness by irrigating at the base and improving airflow.", "Use local extension advice for any fungicide decision."],
+    "prevention": ["Use clean planting material and rotate away from potato and related solanaceous crops.", "Control volunteer potatoes and susceptible weeds.", "Maintain balanced fertility and avoid plant stress."],
+    "monitoring": ["Scout older leaves for expanding brown lesions with concentric rings and monitor spread after warm, humid weather."],
+    "sources": ["https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "potato_late_blight": {
+    "management": ["Treat suspected late blight as urgent because it can spread quickly.", "Remove isolated infected plants or tissue using locally recommended sanitation practices.", "Contact a local agricultural extension service for confirmation and registered control options."],
+    "prevention": ["Use certified potato seed and destroy cull piles or volunteer potatoes that can carry infection.", "Improve airflow and avoid prolonged leaf wetness where possible."],
+    "monitoring": ["Scout early in the day, especially in cool wet conditions; watch for rapidly expanding irregular dark lesions and white growth at lesion margins under humid conditions."],
+    "sources": ["https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "tomato_bacterial_spot": {
+    "management": ["Avoid working among plants while foliage is wet.", "Remove badly affected leaves or transplants and sanitize tools between plants.", "Avoid routine copper use without local advice because resistance can occur."],
+    "prevention": ["Start with reputable disease-free seed or transplants.", "Use drip or base watering and provide spacing for airflow.", "Rotate away from tomato and pepper and control volunteer solanaceous plants."],
+    "monitoring": ["Scout after warm, wet weather for small brown spots with yellow halos and new symptoms on young tissue or fruit."],
+    "sources": ["https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/bacterial-spot-of-tomato-and-pepper", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "tomato_early_blight": {
+    "management": ["Remove heavily infected lower leaves without removing excessive foliage.", "Water at the base and improve airflow with staking/trellising and weed control.", "Seek locally registered options if disease pressure continues to rise."],
+    "prevention": ["Use resistant cultivars when available and rotate away from related crops.", "Mulch to reduce soil splash and sanitize pruning tools."],
+    "monitoring": ["Scout lower, older leaves for brown target-like lesions and track upward spread."],
+    "sources": ["https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  },
+  "tomato_late_blight": {
+    "management": ["Act quickly on suspected late blight and isolate/remove affected plants where feasible.", "Avoid moving through wet plants when possible.", "Contact local extension for confirmation and registered late-blight control options."],
+    "prevention": ["Inspect transplants, manage volunteer potato/tomato hosts, and reduce prolonged leaf wetness.", "Use resistant varieties where suitable and locally available."],
+    "monitoring": ["Watch for rapidly enlarging olive-brown lesions during cool, humid weather and check neighboring plants frequently."],
+    "sources": ["https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight", "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"]
+  }
+}

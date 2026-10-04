@@ -1,0 +1,1 @@
+{"name":"crop-health-ai","private":true,"version":"1.0.0","scripts":{"start":"python run.py","test":"pytest -q"}}

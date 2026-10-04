@@ -1,0 +1,49 @@
+{
+  "disease_id": "potato_late_blight",
+  "crop": "potato",
+  "display_name": "Potato Late Blight",
+  "swahili_name": "Kinyaushi Chelewa cha Viazi",
+  "pathogen": "Phytophthora infestans",
+  "symptoms": [
+    "Rapidly expanding water-soaked dark olive to purplish-black lesions on leaf tips or margins",
+    "Delicate white cottony/downy fungal-like growth visible on leaf undersides during moist early mornings",
+    "Stems develop dark brown to black greasy-looking necrotic lesions",
+    "Entire canopy collapses with a characteristic pungent rot smell in severe outbreaks"
+  ],
+  "management": [
+    "Treat suspected late blight as an emergency; pathogen can destroy an entire field within 7-10 days in wet highland conditions.",
+    "Rogue and safely bag isolated severely infected plants without shaking spores onto neighbors.",
+    "Contact your nearest Sub-County Agricultural Officer or KALRO station immediately for current registered blight controls and preventative spray intervals.",
+    "Hilling up (earthing up) tubers well with soil prevents wash-down of sporangia onto developing tubers."
+  ],
+  "prevention": [
+    "Plant certified clean potato seed and consider late blight tolerant varieties bred by KALRO/CIP (e.g., Shangi, Unica, Asante where available).",
+    "Completely destroy discard piles (culls) from previous harvest—they are the primary inoculum reservoir in Kenya.",
+    "Maximize plant spacing and orientation toward prevailing winds to promote fast canopy drying."
+  ],
+  "monitoring": [
+    "Scout the field daily during cool, foggy, overcast, or rainy weather (temperatures 10-20°C, RH > 90%).",
+    "Inspect lower leaves, leaf undersides, and depressed wet spots in the field first thing in the morning."
+  ],
+  "escalation": [
+    "White sporulation observed on leaf undersides.",
+    "More than 5% of plants exhibiting water-soaked black lesions in cool rainy periods.",
+    "Stem lesions detected on multiple plants across the plot."
+  ],
+  "kenya_notes": "The single most devastating disease of potato in Kenya highlands (Nyandarua, Mau Narok, Meru, Elgeyo Marakwet). In wet seasons, farmers without timely intervention often suffer 80-100% loss.",
+  "sources": [
+    {
+      "name": "International Potato Center (CIP) Late Blight Research",
+      "url": "https://cipotato.org/crop-protection/late-blight/"
+    },
+    {
+      "name": "KALRO Horticulture & Potato Research Centre Advisory",
+      "url": "https://www.kalro.org/horticulture/"
+    },
+    {
+      "name": "University of Minnesota Extension - Late Blight",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

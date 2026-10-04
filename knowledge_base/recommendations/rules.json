@@ -1,0 +1,82 @@
+{
+  "rules": [
+    {
+      "rule_id": "severe_late_blight",
+      "condition": {
+        "disease_contains": "late_blight",
+        "severity": "Severe"
+      },
+      "actions": {
+        "is_urgent": true,
+        "immediate_management_additions": [
+          "URGENT ACTION REQUIRED: Phytophthora infestans (Late Blight) spreads rapidly in cool, humid conditions. Isolate and bag severely infected plant tissue immediately.",
+          "Inspect all neighboring plants within a 5-meter radius.",
+          "Contact your Sub-County Agricultural Extension Officer immediately for registered fungicide options."
+        ],
+        "follow_up_days": 2,
+        "escalation_note": "Risk of complete field loss if unaddressed within 48 to 72 hours."
+      }
+    },
+    {
+      "rule_id": "moderate_late_blight",
+      "condition": {
+        "disease_contains": "late_blight",
+        "severity": "Moderate"
+      },
+      "actions": {
+        "is_urgent": true,
+        "immediate_management_additions": [
+          "Remove isolated infected lower leaves immediately and dispose away from the plot.",
+          "Cease any overhead irrigation; switch strictly to root-level watering.",
+          "Schedule a follow-up inspection in 2-3 days."
+        ],
+        "follow_up_days": 3,
+        "escalation_note": "Monitor daily for white downy sporulation on leaf undersides."
+      }
+    },
+    {
+      "rule_id": "bacterial_spot_wet_weather",
+      "condition": {
+        "disease_contains": "bacterial_spot"
+      },
+      "actions": {
+        "is_urgent": false,
+        "immediate_management_additions": [
+          "Do NOT enter or prune plants while foliage is wet from rain or dew.",
+          "Disinfect pruning shears between each plant with 70% surgical spirit or 10% household bleach.",
+          "Copper sprays should only be used under local agricultural extension guidance as copper-resistant strains exist in Kenya."
+        ],
+        "follow_up_days": 5,
+        "escalation_note": "If spotting spreads to fruits with scab-like blisters, harvest green fruit may be unsellable."
+      }
+    },
+    {
+      "rule_id": "healthy_crop",
+      "condition": {
+        "disease_contains": "healthy"
+      },
+      "actions": {
+        "is_urgent": false,
+        "immediate_management_additions": [
+          "Leaf appears healthy. Continue standard integrated pest and crop management practices.",
+          "Maintain routine scouting every 7-10 days."
+        ],
+        "follow_up_days": 14,
+        "escalation_note": "No escalation required. Maintain record in farm history."
+      }
+    },
+    {
+      "rule_id": "high_humidity_weather_alert",
+      "condition": {
+        "high_humidity": true,
+        "disease_not_contains": "healthy"
+      },
+      "actions": {
+        "monitoring_additions": [
+          "Current environmental humidity (>80%) significantly accelerates fungal sporulation. Inspect canopy daily in morning hours."
+        ]
+      }
+    }
+  ],
+  "disclaimer": "AI diagnosis provides decision support based on leaf computer vision. It is not an agronomic laboratory assay. For commercial treatment choices, consult a registered agricultural extension officer or agrochemical professional adhering to Kenya Pest Control Products Board (PCPB) guidelines."
+}

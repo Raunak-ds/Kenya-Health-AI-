@@ -1,0 +1,47 @@
+{
+  "disease_id": "maize_northern_leaf_blight",
+  "crop": "maize",
+  "display_name": "Maize Northern Leaf Blight",
+  "swahili_name": "Kinyaushi cha Kaskazini cha Mahindi",
+  "pathogen": "Exserohilum turcicum (Setosphaeria turcica)",
+  "symptoms": [
+    "Long, elliptical, cigar-shaped grayish-green to tan lesions (2.5 to 15 cm in length)",
+    "Lesions develop dark olive to black spore mats on surfaces during damp weather",
+    "Severe infections cause leaves to wither, appear prematurely scorched or frosted"
+  ],
+  "management": [
+    "Manage infected maize residue through incorporation or clean field clearance where appropriate.",
+    "Rotate maize with non-cereal crops (beans, peas, soybeans, potatoes) for at least one full cycle.",
+    "If infection starts before silking on susceptible seed in highland zones, contact county extension for registered treatment protocols."
+  ],
+  "prevention": [
+    "Select KALRO-recommended resistant hybrid seed varieties (e.g., H6213, H628, or modern highlands hybrids).",
+    "Maintain recommended plant spacing (typically 75 cm between rows, 25 cm between plants) to facilitate canopy aeration.",
+    "Avoid planting maize consecutively on adjacent plots with unmanaged infected stover."
+  ],
+  "monitoring": [
+    "Scout lower leaves every 7 days following moderate temperatures (18-27°C) and heavy dews or rainfall.",
+    "Observe whether cigar-shaped lesions progress above the ear node."
+  ],
+  "escalation": [
+    "Lesions appear on the ear leaf or flag leaf within 2 to 3 weeks of flowering.",
+    "Leaf death exceeds 30% of total canopy before the dough stage.",
+    "Neighbouring farms report severe blight outbreaks."
+  ],
+  "kenya_notes": "One of the most destructive maize diseases in Kenya, particularly across Trans Nzoia, Uasin Gishu, Nandi, Bomet, and Kisii counties during wet long and short rains.",
+  "sources": [
+    {
+      "name": "KALRO Maize Crop Protection Guide",
+      "url": "https://www.kalro.org/maize/crop-protection/"
+    },
+    {
+      "name": "CIMMYT Northern Leaf Blight in African Farming Systems",
+      "url": "https://www.cimmyt.org/work/maize-diseases/"
+    },
+    {
+      "name": "FAO IPM Pest and Disease Management",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

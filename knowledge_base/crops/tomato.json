@@ -1,0 +1,15 @@
+{
+  "crop_id": "tomato",
+  "name": "Tomato",
+  "swahili_name": "Nyanya",
+  "scientific_name": "Solanum lycopersicum",
+  "supported_diseases": [
+    "tomato_bacterial_spot",
+    "tomato_early_blight",
+    "tomato_late_blight"
+  ],
+  "healthy_class": "tomato_healthy",
+  "kenya_importance": "Critical horticultural cash crop grown by smallholders and commercial producers in Kirinyaga (Mwea), Kajiado (Loitokitok), Machakos, Kiambu, and Nakuru.",
+  "vulnerable_growth_stages": ["Nursery / Seedling", "Transplanting / Vegetative", "Flowering / Fruit set", "Fruit ripening"],
+  "key_kenya_extension_contacts": "Sub-county Agricultural Officer (Horticulture) or KALRO Horticultural Research Institute (Thika)."
+}

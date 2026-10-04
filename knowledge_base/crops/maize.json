@@ -1,0 +1,15 @@
+{
+  "crop_id": "maize",
+  "name": "Maize (Corn)",
+  "swahili_name": "Mahindi",
+  "scientific_name": "Zea mays",
+  "supported_diseases": [
+    "maize_gray_leaf_spot",
+    "maize_common_rust",
+    "maize_northern_leaf_blight"
+  ],
+  "healthy_class": "maize_healthy",
+  "kenya_importance": "Primary national staple food crop. Major production counties include Trans Nzoia, Uasin Gishu, Nakuru, Bungoma, Kakamega, Narok.",
+  "vulnerable_growth_stages": ["V6-V8 (Knee-high)", "V12-VT (Tasseling)", "R1 (Silking)", "R2-R3 (Grain filling)"],
+  "key_kenya_extension_contacts": "County Agricultural Office or KALRO Kitale / Katumani / Muguga."
+}

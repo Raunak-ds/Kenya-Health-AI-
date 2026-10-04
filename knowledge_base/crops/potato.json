@@ -1,0 +1,14 @@
+{
+  "crop_id": "potato",
+  "name": "Irish Potato",
+  "swahili_name": "Viazi mviringo",
+  "scientific_name": "Solanum tuberosum",
+  "supported_diseases": [
+    "potato_early_blight",
+    "potato_late_blight"
+  ],
+  "healthy_class": "potato_healthy",
+  "kenya_importance": "Second most important food crop in Kenya. Major production zones in Nyandarua, Nakuru (Mau Narok), Meru, Elgeyo Marakwet, Kiambu, and Bomet.",
+  "vulnerable_growth_stages": ["Vegetative emergence", "Tuber initiation", "Tuber bulking", "Maturation"],
+  "key_kenya_extension_contacts": "National Potato Council of Kenya (NPCK) / KALRO Tigoni Potato Research Centre."
+}

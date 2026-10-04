@@ -1,0 +1,22 @@
+project:
+  seed: 42
+  image_size: 224
+  batch_size: 32
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  num_workers: 2
+  comparison_epochs: 2
+  final_epochs: 8
+  early_stopping_patience: 3
+  target_recall: 0.90
+  max_false_positive_rate: 0.10
+  confidence_threshold_fallback: 0.70
+  temperature_scaling: true
+  selected_models:
+    - mobilenet_v3_small
+    - resnet18
+    - efficientnet_b0
+paths:
+  dataset: data/plantvillage_selected
+  artifacts: artifacts
+  knowledge_base: knowledge_base/recommendations.json

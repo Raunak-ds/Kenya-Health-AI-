@@ -1,0 +1,73 @@
+/* Kenya Crop Health AI — premium green scan experience */
+:root {
+  --premium-emerald: #0f6b46;
+  --premium-emerald-dark: #08452f;
+  --premium-leaf: #37a66f;
+  --premium-mint: #e9f7ef;
+  --premium-gold: #d8a446;
+}
+
+.scan-page { position: relative; isolation: isolate; }
+.scan-page::before, .scan-page::after {
+  content: ""; position: absolute; z-index: -1; width: 180px; height: 260px; opacity: .10;
+  background: radial-gradient(ellipse at 50% 100%, transparent 46%, var(--premium-leaf) 48% 54%, transparent 56%),
+              radial-gradient(ellipse at 68% 26%, var(--premium-leaf) 0 33%, transparent 35%),
+              radial-gradient(ellipse at 29% 46%, var(--premium-leaf) 0 29%, transparent 31%);
+  filter: blur(.2px); pointer-events: none;
+}
+.scan-page::before { right: 1%; top: 90px; transform: rotate(18deg); }
+.scan-page::after { left: 2%; bottom: 40px; transform: rotate(-22deg) scale(.82); }
+.scan-card { border: 1px solid rgba(15,107,70,.13); box-shadow: 0 24px 70px rgba(8,69,47,.10); background: linear-gradient(180deg,#fff 0%,#fbfefc 100%); }
+.scan-card .stepper li span { background: var(--premium-mint); color: var(--premium-emerald-dark); border: 1px solid rgba(15,107,70,.15); }
+.scan-photo-section { margin-top: .3rem; padding: 1rem; border-radius: 24px; background: linear-gradient(145deg,#f7fcf9,#eef8f2); border: 1px solid rgba(15,107,70,.12); }
+.scan-photo-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; margin-bottom:.8rem; }
+.scan-kicker { display:inline-flex; align-items:center; gap:.35rem; margin-bottom:.35rem; color:var(--premium-emerald); font-size:.72rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+.scan-secure-note { display:inline-flex; align-items:center; gap:.3rem; color:#527164; font-size:.72rem; white-space:nowrap; }
+.scan-source-tabs { display:inline-flex; gap:.35rem; padding:.3rem; margin-bottom:1rem; background:#dff1e7; border-radius:14px; }
+.scan-source-tab { display:inline-flex; align-items:center; gap:.4rem; border:0; border-radius:11px; padding:.65rem .95rem; background:transparent; color:#446356; font-weight:800; cursor:pointer; }
+.scan-source-tab.active { background:#fff; color:var(--premium-emerald-dark); box-shadow:0 5px 18px rgba(8,69,47,.12); }
+.premium-dropzone { min-height:260px; background:radial-gradient(circle at 50% 22%,#fff 0 18%,transparent 19%),linear-gradient(145deg,#f9fdfa,#ecf7f0); border-color:#9bc9ae; }
+.premium-dropzone:hover { background:linear-gradient(145deg,#f3fbf6,#e6f5ec); border-color:var(--premium-emerald); }
+.premium-dropzone .upload-icon { color:#fff; background:linear-gradient(145deg,var(--premium-leaf),var(--premium-emerald)); box-shadow:0 14px 28px rgba(15,107,70,.22); }
+.camera-shell { position:relative; overflow:hidden; padding:1rem; border-radius:24px; background:linear-gradient(145deg,#082f22,#0d5137 52%,#0c6641); box-shadow:0 24px 50px rgba(8,69,47,.18); }
+.camera-area { position:relative; overflow:hidden; width:100%; max-width:760px; margin:0 auto 1rem; aspect-ratio:4/3; border-radius:20px; background:#071d15; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); }
+.camera-area video { width:100%; height:100%; object-fit:cover; }
+.camera-guide { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.75rem; pointer-events:none; color:#fff; text-shadow:0 2px 12px rgba(0,0,0,.45); }
+.camera-guide-box { width:min(70%,420px); height:72%; border:2px dashed rgba(229,255,238,.9); border-radius:44% 56% 48% 52% / 60% 48% 52% 40%; box-shadow:0 0 0 999px rgba(3,24,16,.22),0 0 26px rgba(115,216,156,.25); }
+.camera-guide span { padding:.45rem .8rem; border-radius:999px; background:rgba(3,24,16,.62); backdrop-filter:blur(8px); font-size:.8rem; font-weight:800; }
+.camera-leaf { position:absolute; color:#7ee3a6; opacity:.16; pointer-events:none; }
+.camera-leaf svg { width:100%; height:100%; }
+.camera-leaf.leaf-one { right:-5px; top:-2px; transform:rotate(26deg); }
+.camera-leaf.leaf-two { left:8px; bottom:52px; transform:rotate(-28deg); }
+.camera-photo-wrapper { position:relative; max-width:760px; margin:0 auto 1rem; }
+.camera-photo-wrapper img { display:block; width:100%; max-height:520px; object-fit:contain; border-radius:20px; background:#061b13; }
+.camera-photo-badge { position:absolute; left:14px; bottom:14px; display:inline-flex; align-items:center; gap:.35rem; padding:.5rem .7rem; border-radius:999px; background:rgba(232,250,239,.94); color:var(--premium-emerald-dark); font-size:.75rem; font-weight:800; }
+.camera-buttons { display:flex; justify-content:center; gap:.7rem; flex-wrap:wrap; }
+.camera-shell .btn-primary { background:linear-gradient(135deg,#46bc7c,#148652); box-shadow:0 12px 24px rgba(8,69,47,.28); }
+.scan-analyzing { border:1px solid rgba(15,107,70,.16) !important; background:radial-gradient(circle at 50% 8%,#f2fff7 0,#edf9f2 38%,#fff 100%) !important; box-shadow:0 28px 70px rgba(8,69,47,.12) !important; }
+.scan-analyzing .an-title { color:var(--premium-emerald-dark) !important; }
+.scan-analyzing .an-bar i { background:linear-gradient(90deg,#25a563,#76dba0,#d6a84f) !important; }
+.scan-analyzing .an-dots i { border-color:#85c9a3 !important; }
+.scan-analyzing .an-dots li { color:#4b6d5f !important; }
+.visual-analysis-card { border:1px solid rgba(15,107,70,.14); box-shadow:0 18px 48px rgba(8,69,47,.08); }
+@media (max-width:700px){ .scan-photo-heading{flex-direction:column}.scan-secure-note{white-space:normal}.scan-source-tabs{display:flex;width:100%}.scan-source-tab{flex:1;justify-content:center}.scan-photo-section{padding:.75rem}.camera-shell{padding:.65rem}.camera-guide-box{width:78%;height:70%} }
+
+
+/* Scan-result visibility fix: use a unique animation name so the decorative
+   leaf animation cannot override the result reveal keyframes. */
+.result-page > * {
+  opacity: 1;
+  visibility: visible;
+  animation-name: crop-result-reveal !important;
+  animation-duration: .55s !important;
+  animation-timing-function: ease-out !important;
+  animation-fill-mode: both !important;
+  animation-iteration-count: 1 !important;
+}
+@keyframes crop-result-reveal {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .result-page > * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}

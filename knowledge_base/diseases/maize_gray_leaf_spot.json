@@ -1,0 +1,47 @@
+{
+  "disease_id": "maize_gray_leaf_spot",
+  "crop": "maize",
+  "display_name": "Maize Gray Leaf Spot",
+  "swahili_name": "Madoa ya Kijivu ya Mahindi",
+  "pathogen": "Cercospora zeae-maydis",
+  "symptoms": [
+    "Small rectangular lesions with parallel edges bounded by leaf veins",
+    "Initially tan or yellow spots turning grayish brown with age",
+    "Lesions may coalesce to form large blighted areas on leaves, especially starting from lower canopy"
+  ],
+  "management": [
+    "Remove or bury heavily infected crop residue where practical and conservation tillage allows.",
+    "Adopt crop rotation with non-host crops (legumes such as beans, cowpeas, or sunflower) for at least 1-2 seasons.",
+    "Consult a local Kenyan extension officer before considering PCPB-registered fungicides (never spray uncertified products)."
+  ],
+  "prevention": [
+    "Plant certified KALRO or KEPHIS approved resistant or tolerant maize hybrids (e.g., modern mid-altitude varieties).",
+    "Avoid continuous monocropping of maize on the same parcel.",
+    "Ensure balanced plant nutrition—excess nitrogen combined with potassium deficiency elevates susceptibility."
+  ],
+  "monitoring": [
+    "Scout lower and middle leaves weekly starting at knee-high (V6-V8) through silking (R1).",
+    "Track upward lesion spread toward the ear leaf; disease reaching ear leaf before grain filling causes major yield loss."
+  ],
+  "escalation": [
+    "Lesions reach ear leaf or above during silking/tasseling stage.",
+    "Over 30% of field foliage displays coalescing lesions.",
+    "Persistent warm, overcast, and high-humidity weather forecasted in highland maize zones."
+  ],
+  "kenya_notes": "Significant in wet, humid highland and mid-altitude maize basins including Trans Nzoia, Uasin Gishu, Kakamega, and Kericho. Continuous maize farming and minimum tillage with infected stover heighten local risk.",
+  "sources": [
+    {
+      "name": "KALRO Maize Crop Protection Guide",
+      "url": "https://www.kalro.org/maize/crop-protection/"
+    },
+    {
+      "name": "FAO Integrated Pest Management Guidelines",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    },
+    {
+      "name": "CIMMYT Maize Foliar Disease Profiles for Eastern Africa",
+      "url": "https://www.cimmyt.org/work/maize-diseases/"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

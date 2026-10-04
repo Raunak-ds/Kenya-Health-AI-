@@ -1,0 +1,7 @@
+{
+  "nav": {"home":"Home","dashboard":"Dashboard","scan":"Scan Crop","farms":"Farms","history":"History","follow_ups":"Follow-ups","notifications":"Notifications","profile":"Profile","expert":"Expert Review","admin":"Admin","login":"Sign In","register":"Register","logout":"Sign Out"},
+  "headers": {"what_to_do_now":"What to do now","prevention":"Prevention","monitoring":"Monitoring","escalation":"When to get expert help","kenya_notes":"Kenya field notes","sources":"Sources","feedback":"Was this result useful?"},
+  "feedback": {"helpful_question":"Did this recommendation help you decide what to do?","yes":"Yes","no":"No","not_sure":"Not sure","outcome_question":"How is the crop now?","improved":"Improving","unchanged":"Unchanged","worsened":"Worsening","submit":"Submit feedback","submitted":"Thank you for your feedback!"},
+  "stats": {"no_scans_yet":"No scans yet"},
+  "disclaimer_text":"AI screening supports early detection and does not replace professional agricultural advice. Consult an extension officer before major treatment decisions."
+}

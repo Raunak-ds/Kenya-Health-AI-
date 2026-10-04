@@ -1,0 +1,15 @@
+{
+  "name": "Kenya Crop Health AI",
+  "short_name": "CropHealthKE",
+  "description": "AI-assisted crop disease screening, Grad-CAM explanations, agronomic recommendations, follow-up tracking, and expert review for Kenyan agriculture.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070B1A",
+  "theme_color": "#070B1A",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/static/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/static/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

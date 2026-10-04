@@ -1,0 +1,7 @@
+{
+  "nav": {"home":"Nyumbani","dashboard":"Dashibodi","scan":"Pima Zao","farms":"Mashamba","history":"Historia","follow_ups":"Ufuatiliaji","notifications":"Taarifa","profile":"Wasifu","expert":"Uhakiki","admin":"Usimamizi","login":"Ingia","register":"Jisajili","logout":"Toka"},
+  "headers": {"what_to_do_now":"Chukua hatua sasa","prevention":"Kinga","monitoring":"Ufuatiliaji","escalation":"Wakati wa kutafuta mtaalamu","kenya_notes":"Maelezo ya Kenya","sources":"Vyanzo","feedback":"Je, matokeo yalikusaidia?"},
+  "feedback": {"helpful_question":"Je, mapendekezo haya yamekusaidia kuamua hatua?","yes":"Ndiyo","no":"Hapana","not_sure":"Sijui","outcome_question":"Zao liko vipi sasa?","improved":"Linaimarika","unchanged":"Halijabadilika","worsened":"Limezidi kuwa mbaya","submit":"Tuma mrejesho","submitted":"Asante kwa mrejesho wako!"},
+  "stats": {"no_scans_yet":"Hakuna vipimo bado"},
+  "disclaimer_text":"Uchunguzi wa AI husaidia utambuzi wa mapema na haubadilishi ushauri wa mtaalamu wa kilimo. Wasiliana na afisa ugani kabla ya maamuzi makubwa ya matibabu."
+}

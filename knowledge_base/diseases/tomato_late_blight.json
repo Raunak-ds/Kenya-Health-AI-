@@ -1,0 +1,50 @@
+{
+  "disease_id": "tomato_late_blight",
+  "crop": "tomato",
+  "display_name": "Tomato Late Blight",
+  "swahili_name": "Kinyaushi Chelewa cha Nyanya",
+  "pathogen": "Phytophthora infestans",
+  "symptoms": [
+    "Irregular water-soaked pale to olive-green lesions rapidly turning dark purplish-brown on leaves and stems",
+    "Under humid or damp conditions, fuzzy white fungal-like growth appears on the underside of affected leaves",
+    "Stems show prominent brown to black necrotic lesions, becoming brittle",
+    "Fruit shows large, firm, greasy-looking golden-brown to dark lesions with rough surfaces"
+  ],
+  "management": [
+    "Treat immediately as a critical emergency; late blight can destroy an entire tomato crop within days in cool, wet weather.",
+    "Remove and safely bag infected plants or tissues immediately to arrest aerial spore drift; do not discard near greenhouses or open fields.",
+    "Contact your local agricultural extension officer or certified agronomist for PCPB-registered late blight fungicide programs (protective before rains, curative at very onset).",
+    "Avoid moving through wet foliage, which mechanically transfers zoospores across the farm."
+  ],
+  "prevention": [
+    "Grow in well-ventilated structures/greenhouses or use raised beds with plastic mulch in open fields.",
+    "Ensure wide plant spacing (at least 60cm in-row, 90cm between rows) and continuous staking/trellising.",
+    "Never plant tomatoes adjacent to Irish potatoes or where volunteer potato/tomato culls remain.",
+    "Select tolerant varieties when available from certified Kenyan seed companies."
+  ],
+  "monitoring": [
+    "Scout daily during prolonged cool, foggy, or rainy spells (12-22°C, RH > 90%).",
+    "Examine leaf undersides, growing tips, and fruit clusters in morning hours."
+  ],
+  "escalation": [
+    "Active white sporulation detected on leaf undersides in the field.",
+    "Rapid spread to multiple plants within 48 hours following wet weather.",
+    "Fruit lesions developing across multiple ripening clusters."
+  ],
+  "kenya_notes": "Extremely devastating in highland tomato production zones (e.g. Kiambu, Kirinyaga highland fringes, Nakuru, Machakos hills). Losses frequently reach 100% in untreated open fields during wet seasons.",
+  "sources": [
+    {
+      "name": "KALRO Horticulture Advisory - Tomato Late Blight Management",
+      "url": "https://www.kalro.org/horticulture/"
+    },
+    {
+      "name": "University of Minnesota Extension - Late Blight in Tomato",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+    },
+    {
+      "name": "FAO IPM Plant Protection Guidelines",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

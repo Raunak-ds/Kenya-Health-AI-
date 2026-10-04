@@ -1,0 +1,48 @@
+{
+  "disease_id": "potato_early_blight",
+  "crop": "potato",
+  "display_name": "Potato Early Blight",
+  "swahili_name": "Kinyaushi cha Mapema cha Viazi",
+  "pathogen": "Alternaria solani",
+  "symptoms": [
+    "Small dark brown to black circular or angular spots on older lower leaves",
+    "Concentric rings develop inside spots creating a distinct target-board or bulls-eye pattern",
+    "Yellow halo (chlorosis) frequently surrounds older lesions; leaves dry up and droop"
+  ],
+  "management": [
+    "Prune or remove badly infected foliage where practical and dispose of away from production fields.",
+    "Irrigate at soil level (drip or furrow); avoid overhead sprinklers that cause prolonged leaf wetness.",
+    "Consult local agricultural extension for PCPB registered protective treatments during warm, humid weather."
+  ],
+  "prevention": [
+    "Always source certified, disease-free seed tubers (from KALRO Tigoni, ADC Molo, or certified seed multipliers).",
+    "Practice minimum 3-year crop rotation away from potato, tomato, pepper, and eggplant.",
+    "Eliminate volunteer potato plants, cull piles, and nightshade family weeds.",
+    "Ensure balanced potassium and phosphorus to avoid plant stress."
+  ],
+  "monitoring": [
+    "Scout lower canopy leaves every 3-5 days during alternating warm dry days and humid nights.",
+    "Track upward progression toward the upper canopy during tuber bulking."
+  ],
+  "escalation": [
+    "Bulls-eye lesions advance rapidly from lower leaves into mid-canopy during tuber initiation.",
+    "Premature defoliation exceeding 25% of canopy.",
+    "Lesions spread to stems or tubers showing sunken dark lesions."
+  ],
+  "kenya_notes": "Prevalent in major potato growing zones like Nyandarua (Ol Kalou, Kinangop), Nakuru (Mau Narok), Meru, and Bomet. Often secondary to nitrogen stress or drought stress.",
+  "sources": [
+    {
+      "name": "KALRO Tigoni Potato Research Centre Advisory",
+      "url": "https://www.kalro.org/horticulture/"
+    },
+    {
+      "name": "University of Minnesota Extension - Early Blight in Tomato and Potato",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+    },
+    {
+      "name": "FAO Integrated Pest Management Guidelines",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}

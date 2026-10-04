@@ -1,0 +1,47 @@
+{
+  "disease_id": "maize_common_rust",
+  "crop": "maize",
+  "display_name": "Maize Common Rust",
+  "swahili_name": "Kutu ya Kawaida ya Mahindi",
+  "pathogen": "Puccinia sorghi",
+  "symptoms": [
+    "Small circular to elongated golden-brown to cinnamon pustules (uredinia) on both upper and lower leaf surfaces",
+    "Pustules rupture epidermal tissue, releasing powdery rust-colored spores",
+    "Pustules darken to brown or black later in the season as teliospores form"
+  ],
+  "management": [
+    "Prioritize resistant hybrids suited for your agro-ecological altitude.",
+    "Do not apply fungicides indiscriminately; common rust rarely causes severe yield loss on mature plants in Kenya unless onset is very early (pre-tassel).",
+    "Seek advice from Sub-county Agricultural Extension Officers before making chemical fungicide purchases."
+  ],
+  "prevention": [
+    "Use KEPHIS-certified rust-tolerant maize hybrid seed suitable for cool/moist highland zones.",
+    "Maintain balanced soil fertility according to soil test recommendations.",
+    "Maintain clean field borders and eradicate alternative host weeds (such as Oxalis species) around field edges."
+  ],
+  "monitoring": [
+    "Inspect leaves on both sides during cool (16-24°C) and moist conditions typical of early morning dews.",
+    "Monitor whether pustules appear on upper leaves before the silking stage."
+  ],
+  "escalation": [
+    "Pustules develop extensively across upper leaves prior to tasseling.",
+    "Severe leaf necrosis and chlorosis covering more than 20% of canopy during reproductive stages.",
+    "Cold, foggy highland weather prolongs free leaf moisture."
+  ],
+  "kenya_notes": "Common in cooler highland regions (Central Highlands, Rift Valley highlands, Kisii, Western highlands). Yield impact is highest when cool, damp weather occurs early in the vegetative cycle.",
+  "sources": [
+    {
+      "name": "KALRO Maize Crop Protection Guide",
+      "url": "https://www.kalro.org/maize/crop-protection/"
+    },
+    {
+      "name": "University of Minnesota Extension - Common Rust on Corn",
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/common-rust-on-corn"
+    },
+    {
+      "name": "FAO IPM Pest and Disease Management",
+      "url": "https://www.fao.org/pest-and-pesticide-management/ipm/integrated-pest-management/en"
+    }
+  ],
+  "last_reviewed_date": "2026-09-15"
+}
